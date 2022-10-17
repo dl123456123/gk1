@@ -326,24 +326,24 @@ void HAL_TIM_PeriodElapsedCallback(TIM_HandleTypeDef *htim){
 				HAL_GPIO_WritePin(GPIOA, GPIO_PIN_6,GPIO_PIN_RESET);
 				HAL_GPIO_WritePin(GPIOA, GPIO_PIN_9,GPIO_PIN_SET);
 				counter=2;
-				Display7SEG(1);
+				DisplaySEG(1);
 				break;
 			case 2:
 				HAL_GPIO_WritePin(GPIOA, GPIO_PIN_7,GPIO_PIN_RESET);
 				HAL_GPIO_WritePin(GPIOA, GPIO_PIN_6,GPIO_PIN_SET);
-				Display7SEG(2);
+				DisplaySEG(2);
 				counter=3;
 				break;
 			case 3:
 				HAL_GPIO_WritePin(GPIOA, GPIO_PIN_8,GPIO_PIN_RESET);
 				HAL_GPIO_WritePin(GPIOA, GPIO_PIN_7,GPIO_PIN_SET);
-				Display7SEG(3);
+				DisplaySEG(3);
 				counter=0;
 				break;
 			case 0:
 				HAL_GPIO_WritePin(GPIOA, GPIO_PIN_9,GPIO_PIN_RESET);
 				HAL_GPIO_WritePin(GPIOA, GPIO_PIN_8,GPIO_PIN_SET);
-				Display7SEG(0);
+				DisplaySEG(0);
 				counter=1;
 				break;
 		}
