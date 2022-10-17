@@ -559,3 +559,42 @@
 2022-10-18 03:56:47,282 [INFO] McuFinderGlobals:52 - Set McuFinderConnectedMode to true
 2022-10-18 03:56:47,562 [INFO] ApiDb:276 - Save user favorites file C:\Users\HP/.stm32cubeide/favorites.mcus.txt: 0 item(s)
 2022-10-18 03:56:47,562 [INFO] ApiDb:280 - User favorites MCUs=[]
+2022-10-18 04:37:16,839 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 783803016 Bytes (1061158912)
+2022-10-18 04:37:18,438 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 808968840 Bytes (1061158912)
+2022-10-18 04:37:20,250 [INFO] UtilMem:74 - End SaveConfig() Used Memory: 885514888 Bytes (1061158912)
+2022-10-18 04:37:20,625 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: NVIC
+2022-10-18 04:37:20,625 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: SYS
+2022-10-18 04:37:20,625 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: GPIO
+2022-10-18 04:37:20,625 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: RCC
+2022-10-18 04:37:20,626 [INFO] BlockDiagram:2740 - set Specific Code input for plugin: TIM1_8F1
+2022-10-18 04:37:20,627 [INFO] CodeGenerator:663 - code generatio: config db path: C:\ST\STM32CubeIDE_1.7.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.3.0.202107141111\\db\
+2022-10-18 04:37:20,912 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\HP\STM32CubeIDE\workspace_1.7.0\Exercise1\MXTmpFiles\license.tmp_save
+2022-10-18 04:37:20,974 [INFO] CodeEngine:257 - Generated code: C:\Users\HP\STM32CubeIDE\workspace_1.7.0\Exercise1\MXTmpFiles\license.tmp
+2022-10-18 04:37:20,999 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\HP\STM32CubeIDE\workspace_1.7.0\Exercise1\MXTmpFiles\gpio.tmp_save
+2022-10-18 04:37:21,126 [INFO] CodeEngine:257 - Generated code: C:\Users\HP\STM32CubeIDE\workspace_1.7.0\Exercise1\MXTmpFiles\gpio.tmp
+2022-10-18 04:37:21,211 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\HP\STM32CubeIDE\workspace_1.7.0\Exercise1\Core\Src\stm32f1xx_it.c_save
+2022-10-18 04:37:21,292 [INFO] CodeEngine:257 - Generated code: C:\Users\HP\STM32CubeIDE\workspace_1.7.0\Exercise1\Core\Src\stm32f1xx_it.c
+2022-10-18 04:37:21,297 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\HP\STM32CubeIDE\workspace_1.7.0\Exercise1\Core\Inc\stm32f1xx_it.h_save
+2022-10-18 04:37:21,369 [INFO] CodeEngine:257 - Generated code: C:\Users\HP\STM32CubeIDE\workspace_1.7.0\Exercise1\Core\Inc\stm32f1xx_it.h
+2022-10-18 04:37:21,395 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\HP\STM32CubeIDE\workspace_1.7.0\Exercise1\Core\Src\stm32f1xx_hal_msp.c_save
+2022-10-18 04:37:21,503 [INFO] CodeEngine:257 - Generated code: C:\Users\HP\STM32CubeIDE\workspace_1.7.0\Exercise1\Core\Src\stm32f1xx_hal_msp.c
+2022-10-18 04:37:21,507 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\HP\STM32CubeIDE\workspace_1.7.0\Exercise1\MXTmpFiles\system.tmp_save
+2022-10-18 04:37:21,554 [INFO] CodeEngine:257 - Generated code: C:\Users\HP\STM32CubeIDE\workspace_1.7.0\Exercise1\MXTmpFiles\system.tmp
+2022-10-18 04:37:21,568 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\HP\STM32CubeIDE\workspace_1.7.0\Exercise1\Core\Inc\stm32f1xx_hal_conf.h_save
+2022-10-18 04:37:21,649 [INFO] CodeEngine:257 - Generated code: C:\Users\HP\STM32CubeIDE\workspace_1.7.0\Exercise1\Core\Inc\stm32f1xx_hal_conf.h
+2022-10-18 04:37:21,663 [WARN] IPConfigManager:3148 - IP not found : TIM
+2022-10-18 04:37:21,663 [WARN] CodeGenerator:3268 - IP not found : null
+2022-10-18 04:37:21,675 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\HP\STM32CubeIDE\workspace_1.7.0\Exercise1\Core\Inc\main.h_save
+2022-10-18 04:37:21,747 [INFO] CodeEngine:257 - Generated code: C:\Users\HP\STM32CubeIDE\workspace_1.7.0\Exercise1\Core\Inc\main.h
+2022-10-18 04:37:21,756 [INFO] CodeEngine:239 - oldGeneratedFile, C:\Users\HP\STM32CubeIDE\workspace_1.7.0\Exercise1\Core\Src\main.c_save
+2022-10-18 04:37:21,895 [INFO] CodeEngine:257 - Generated code: C:\Users\HP\STM32CubeIDE\workspace_1.7.0\Exercise1\Core\Src\main.c
+2022-10-18 04:37:22,677 [INFO] ProjectBuilder:2578 - Time for Copy HAL[1] : 156mS.
+2022-10-18 04:37:22,680 [INFO] ProjectBuilder:3622 - Project Generator version: 3.14.1
+2022-10-18 04:37:23,146 [INFO] ConfigFileManager:1271 - The Die is : DIE412
+2022-10-18 04:37:26,135 [INFO] ProjectBuilder:3789 - Time for Generating toolchain IDE Files: 3455mS.
+2022-10-18 04:37:26,136 [INFO] ProjectBuilder:2457 - Time for Copy CMSIS : 1mS.
+2022-10-18 04:37:26,140 [INFO] ProjectBuilder:2457 - Time for Copy CMSIS : 0mS.
+2022-10-18 04:40:15,666 [INFO] Activator:177 - 
+
+
+2022-10-18 04:40:15,668 [INFO] Activator:178 - !SESSION log4j initialized
