@@ -1,0 +1,14 @@
+/*
+ * dis7SEG.h
+ *
+ *  Created on: Nov 5, 2022
+ *      Author: HP
+ */
+
+#ifndef INC_DIS7SEG_H_
+#define INC_DIS7SEG_H_
+
+extern int counter = 0;
+
+
+#endif /* INC_DIS7SEG_H_ */

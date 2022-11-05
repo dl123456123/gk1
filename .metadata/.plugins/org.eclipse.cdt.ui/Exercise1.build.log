@@ -1,23 +1,31 @@
-04:42:25 **** Incremental Build of configuration Debug for project Exercise1 ****
+22:08:36 **** Incremental Build of configuration Debug for project Exercise1 ****
 make -j8 all 
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
-arm-none-eabi-gcc -o "Exercise1.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\Users\HP\STM32CubeIDE\workspace_1.7.0\Exercise1\STM32F103C6UX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Exercise1.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: Exercise1.elf
- 
-arm-none-eabi-size   Exercise1.elf 
-arm-none-eabi-objdump -h -S  Exercise1.elf  > "Exercise1.list"
-arm-none-eabi-objcopy  -O ihex  Exercise1.elf  "Exercise1.hex"
-arm-none-eabi-objcopy  -O binary  Exercise1.elf  "Exercise1.bin"
-   text	   data	    bss	    dec	    hex	filename
-   7788	     28	   1644	   9460	   24f4	Exercise1.elf
-Finished building: default.size.stdout
- 
-Finished building: Exercise1.bin
-Finished building: Exercise1.hex
- 
- 
-Finished building: Exercise1.list
- 
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c" -std=gnu11 -g -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.o"
+arm-none-eabi-gcc "../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c" -std=gnu11 -g -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.d" -MT"Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -std=gnu11 -g -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103x6 -c -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+Error: Cannot find the specified linker script. Check the linker settings in the build configuration.
+make: *** [makefile:92: fail-specified-linker-script-missing] Error 2
+make: *** Waiting for unfinished jobs....
+C:\Users\HP\AppData\Local\Temp\cckDTtjc.s: Assembler messages:
+C:\Users\HP\AppData\Local\Temp\cckDTtjc.s:183: Error: selected processor does not support `cpsid i' in Thumb mode
+make: *** [Core/Src/subdir.mk:28: Core/Src/main.o] Error 1
+C:\Users\HP\AppData\Local\Temp\ccQBCK0c.s: Assembler messages:
+C:\Users\HP\AppData\Local\Temp\ccQBCK0c.s:40: Error: selected processor does not support `wfe' in Thumb mode
+C:\Users\HP\AppData\Local\Temp\ccQBCK0c.s:673: Error: selected processor does not support `wfi' in Thumb mode
+C:\Users\HP\AppData\Local\Temp\ccQBCK0c.s:683: Error: selected processor does not support `sev' in Thumb mode
+C:\Users\HP\AppData\Local\Temp\ccQBCK0c.s:687: Error: selected processor does not support `wfe' in Thumb mode
+C:\Users\HP\AppData\Local\Temp\ccQBCK0c.s:691: Error: selected processor does not support `wfe' in Thumb mode
+C:\Users\HP\AppData\Local\Temp\ccQBCK0c.s:770: Error: selected processor does not support `wfi' in Thumb mode
+C:\Users\HP\AppData\Local\Temp\ccQBCK0c.s:779: Error: selected processor does not support `sev' in Thumb mode
+C:\Users\HP\AppData\Local\Temp\ccQBCK0c.s:849: Error: selected processor does not support `wfi' in Thumb mode
+make: *** [Drivers/STM32F1xx_HAL_Driver/Src/subdir.mk:55: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.o] Error 1
+C:\Users\HP\AppData\Local\Temp\cc4C5Vqd.s: Assembler messages:
+C:\Users\HP\AppData\Local\Temp\cc4C5Vqd.s:255: Error: selected processor does not support `dsb 0xF' in Thumb mode
+C:\Users\HP\AppData\Local\Temp\cc4C5Vqd.s:268: Error: selected processor does not support `isb 0xF' in Thumb mode
+C:\Users\HP\AppData\Local\Temp\cc4C5Vqd.s:971: Error: selected processor does not support `dsb 0xF' in Thumb mode
+C:\Users\HP\AppData\Local\Temp\cc4C5Vqd.s:998: Error: selected processor does not support `dsb 0xF' in Thumb mode
+make: *** [Drivers/STM32F1xx_HAL_Driver/Src/subdir.mk:55: Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.o] Error 1
+"make -j8 all" terminated with exit code 2. Build might be incomplete.
 
-04:42:25 Build Finished. 0 errors, 0 warnings. (took 762ms)
+22:08:37 Build Failed. 19 errors, 0 warnings. (took 297ms)
 

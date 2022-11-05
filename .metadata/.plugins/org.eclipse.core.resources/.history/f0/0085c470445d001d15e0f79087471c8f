@@ -1,0 +1,11 @@
+/*
+ * dis7SEG.c
+ *
+ *  Created on: Nov 5, 2022
+ *      Author: HP
+ */
+#include "dis7SEG.h"
+
+int counter = 0;
+
+
